@@ -1,0 +1,10 @@
+
+  Linking design 'riscv'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (15 designs)              /users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/syn/riscv.db, etc
+  saed32lvt_tt1p05vn40c (library) /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db
+  saed32sram_tt1p05vn40c (library) /users/ugrad2/2012/spring/pooriam/libraries/saed32sram_tt1p05vn40c.db
+  dw_foundation.sldb (library) /ecelib/linware/synopsys15/dc/libraries/syn/dw_foundation.sldb
+
+1

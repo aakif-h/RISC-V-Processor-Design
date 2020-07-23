@@ -1,0 +1,58 @@
+Warning: duplicate option '-nosplit' overrides previous value. (CMD-018)
+Warning: Design 'riscv' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : area
+Design : riscv
+Version: J-2014.09-SP4
+Date   : Fri Mar  1 15:29:14 2019
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_tt1p05vn40c (File: /users/ugrad2/2012/spring/pooriam/libraries/saed32lvt_tt1p05vn40c.db)
+
+Number of ports:                           34
+Number of nets:                            68
+Number of cells:                            3
+Number of combinational cells:              0
+Number of sequential cells:                 1
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       3
+
+Combinational area:                100.641025
+Buf/Inv area:                       20.331520
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              16.040373
+
+Total cell area:                   100.641025
+Total area:                        116.681397
+
+Information: This design contains black box (unknown) components. (RPT-8)
+
+The above information was reported from the logical library. The following are from the physical library:
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -------------
+riscv                              100.6410    100.0    0.0000     0.0000  0.0000  riscv
+ac                                  44.2211     43.9   44.2211     0.0000  0.0000  ALUController
+c                                   56.4200     56.1   56.4200     0.0000  0.0000  Controller
+--------------------------------  ---------  -------  --------  ---------  ------  -------------
+Total                                                 100.6410     0.0000  0.0000
+
+
+Area of detected synthetic parts
+--------------------------------
+  No DW parts to report!
+
+Total synthetic cell area:              0.0000  0.0%  
+
+1

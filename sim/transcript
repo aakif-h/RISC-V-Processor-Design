@@ -1,0 +1,36 @@
+# vsim -quiet -c tb_top_opt -do "sim.do" "+notimingchecks" 
+# Start time: 12:33:25 on Apr 10,2019
+# //  Questa Sim-64
+# //  Version 10.4c linux_x86_64 Jul 19 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do sim.do
+# waveform.wlf
+# andi is not working: The WB_data should be:          0, But you got:          7
+# xori is not working: The WB_data should be:          3, But you got:         17
+# xori is not working: The WB_data should be:          4, But you got:          7
+# lw/sw is not working: The WB_data should be:          7, But you got:          0
+# slt is not working: The WB_Data should be:          1, But you got:         52
+# lw/sw is not working: The WB_Data should be:          7, But you got:          0
+# beq is not working: The PC should be:         48, But you got:   0
+# xori is not working: The WB_Data should be:          0, But you got:          3
+# xori is not working: The WB_Data should be:          0, But you got:          1
+# jalr is not working: The PC should be:          0, But you got:  12
+# The total score is:          14
+# ** Note: $stop    : /users/ugrad/2017/fall/syedah1/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv(121)
+#    Time: 350 ns  Iteration: 1  Instance: /tb_top
+# Break in Module tb_top at /users/ugrad/2017/fall/syedah1/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv line 121
+# Stopped at /users/ugrad/2017/fall/syedah1/112L/Labs/Lab3/Lab_Files/verif/tb_top.sv line 121
+# End time: 12:33:26 on Apr 10,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

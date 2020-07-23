@@ -1,0 +1,126 @@
+Loading db file '/ecelib/linware/synopsys15/dc/libraries/syn/gtech.db'
+Loading db file '/ecelib/linware/synopsys15/dc/libraries/syn/standard.sldb'
+  Loading link library 'saed32lvt_tt1p05vn40c'
+  Loading link library 'saed32sram_tt1p05vn40c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'riscv'.
+Information: Building the design 'Controller'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'ALUController'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Datapath'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'adder' instantiated from design 'Datapath' with
+	the parameters "9". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'adder' instantiated from design 'Datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux2' instantiated from design 'Datapath' with
+	the parameters "9". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flopr' instantiated from design 'Datapath' with
+	the parameters "9". (HDL-193)
+
+Inferred memory devices in process
+	in routine flopr_WIDTH9 line 29 in file
+		'/users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/flopr.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|        q_reg        | Flip-flop |   9   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'instructionmemory'. (HDL-193)
+Statistics for MUX_OPs
+===============================================================
+|   block name/line    | Inputs | Outputs | # sel inputs | MB |
+===============================================================
+| instructionmemory/97 |  128   |   30    |      7       | N  |
+===============================================================
+Presto compilation completed successfully.
+Information: Building the design 'RegFile'. (HDL-193)
+
+Inferred memory devices in process
+	in routine RegFile line 29 in file
+		'/users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/RegFile.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register_file_reg  | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+|    RegFile/39    |   32   |   32    |      5       | N  |
+|    RegFile/40    |   32   |   32    |      5       | N  |
+===========================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux2' instantiated from design 'Datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux4' instantiated from design 'Datapath' with
+	the parameters "32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'imm_Gen'. (HDL-193)
+
+Statistics for case statements in always block at line 28 in file
+	'/users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/imm_Gen.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            29            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'alu'. (HDL-193)
+Warning:  /users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/alu.sv:41: signed to unsigned assignment occurs. (VER-318)
+Warning:  /users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/alu.sv:47: signed to unsigned assignment occurs. (VER-318)
+Warning:  /users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/alu.sv:49: signed to unsigned assignment occurs. (VER-318)
+Warning:  /users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/alu.sv:51: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 34 in file
+	'/users/ugrad/2017/fall/syedah1/112L/Labs/Lab2/Lab_Files/design/alu.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            37            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'datamemory'. (HDL-193)
+Presto compilation completed successfully.
+1
