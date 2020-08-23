@@ -65,6 +65,7 @@ forwarding:
 at a time ```N + 2``` cycles.  
 <img src="images/forward_exe.PNG">  
 The following pseudo-code represents the necessary logic for the above scenario:  
+
 ```
 if (EXE/MEM.RegWrite and !EXE/MEM.RegDst)
     if (EXE/MEM.RegDst = ID/EXE.RegSrc1) 
@@ -80,6 +81,7 @@ endif
 be delayed by a total time of ```N + 4``` cycles.  
 <img src="images/forward_mem.PNG">  
 The following pseudo-code represents the necessary logic for the above scenario:  
+
 ```
 if (MEM/WB.RegWrite and !MEM/WB.RegDst)
 	if (MEM/WB.RegDst = ID/EXE.RegSrc1)
