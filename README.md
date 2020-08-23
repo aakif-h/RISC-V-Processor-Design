@@ -64,7 +64,7 @@ forwarding:
 1. Forwarding from an EXE stage of an earlier instruction to the EXE stage of another instruction entering the pipeline
 at a time ```N + 2``` cycles.  
 <img src="images/forward_exe.PNG">  
-The following pseudo-code represents the necessary logic for the above scenario.  
+The following pseudo-code represents the necessary logic for the above scenario:  
 ```
 if (EXE/MEM.RegWrite and !EXE/MEM.RegDst)
     if (EXE/MEM.RegDst = ID/EXE.RegSrc1) 
@@ -79,7 +79,7 @@ endif
 2. Forwarding for an R-format instruction following a _LOAD_ instruction. In this case, the following instruction must
 be delayed by a total time of ```N + 4``` cycles.  
 <img src="images/forward_mem.PNG">  
-The following pseudo-code represents the necessary logic for the above scenario.
+The following pseudo-code represents the necessary logic for the above scenario:  
 ```
 if (MEM/WB.RegWrite and !MEM/WB.RegDst)
 	if (MEM/WB.RegDst = ID/EXE.RegSrc1)
