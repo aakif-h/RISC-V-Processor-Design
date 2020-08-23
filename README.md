@@ -63,7 +63,7 @@ rather than waiting for it to arrive from programmer-visible registers or memory
 forwarding:
 1. Forwarding from an EXE stage of an earlier instruction to the EXE stage of another instruction entering the pipeline
 at a time ```N + 2``` cycles.  
-<img src="images/forward_exe.png">  
+<img src="images/forward_exe.PNG">  
 The following pseudo-code represents the necessary logic for the above scenario.  
 ```
 if (EXE/MEM.RegWrite and !EXE/MEM.RegDst)
@@ -78,7 +78,7 @@ endif
 
 2. Forwarding for an R-format instruction following a _LOAD_ instruction. In this case, the following instruction must
 be delayed by a total time of ```N + 4``` cycles.  
-<img src="images/forward_mem.png">  
+<img src="images/forward_mem.PNG">  
 The following pseudo-code represents the necessary logic for the above scenario.
 ```
 if (MEM/WB.RegWrite and !MEM/WB.RegDst)
@@ -129,21 +129,21 @@ of sequential operations.
 
 ### Power
 #### Single-Cycle Power
-<img src="images/single-power.png">  
+<img src="images/single-power.PNG">  
 
 #### Pipelined Power
-<img src="images/pipelined-power.png">  
+<img src="images/pipelined-power.PNG">  
 
 ### Area
 #### Single-Cycle Area
-<img src="images/single-area.png">  
+<img src="images/single-area.PNG">  
 
 #### Pipelined Area
-<img src="images/pipelined-area.png">  
+<img src="images/pipelined-area.PNG">  
 
 ### Clock Frequency
 #### Single-Cycle Frequency
-<img src="images/single-frequency.png">  
+<img src="images/single-frequency.PNG">  
 
 #### Pipelined Frequency
-<img src="images/pipelined-frequency.png">  
+<img src="images/pipelined-frequency.PNG">  
